@@ -1,21 +1,45 @@
 {
-    "name": "madeleineGoth",
-    "displayName": "Madeleine goth ",
-    "description": "New theme goth",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.53.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Madeleine theme Goth",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Madeleine theme Goth-color-theme.json"
-            }
-        ]
-    }
+	"name": "madeleine-gothic",
+	"displayName": "Madeleine Gothic",
+	"description": "A clean gothic theme and icon package for Visual Studio Code Editor",
+	"version": "3.3.0",
+	"publisher": "madeleine",
+	"engines": {
+		"vscode": "*"
+	},
+	"__metadata": {
+		"id": "",
+		"publisherId": "",
+		"publisherDisplayName": "madeleine"
+	},
+	"homepage": "",
+	"license": "MIT",
+	"categories": [
+		"Themes"
+	],
+	"icon": "assets/logo.png",
+	"keywords": [
+		"dark",
+		"black",
+		"darkpink",
+		"theme",
+		"icons"
+	],
+
+	"contributes": {
+		"themes": [
+			{
+				"label": "Madeleine Gothic Theme | Default Version",
+				"uiTheme": "vs-dark",
+				"path": "./themes/madeleine_gothic_theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "madeleine-gothic-icons",
+				"label": "Madeleine Gothic Icon Package",
+				"path": "./icons/icons.json"
+			}
+		]
+	}
 }

@@ -1,5 +1,5 @@
 {
-	"name": "Madeleine theme Goth",
+	"name": "madeleine-gothic",
 	"type": "dark",
 	"colors":{   
         // CONFIGURACIÓN
@@ -254,7 +254,7 @@
         "pickerGroup.border": "#B2CFFB1A",
         "pickerGroup.foreground": "#FC4384",
         "progressBar.background": "#FC4384",
-        "scrollbar.shadow": "#000000",
+        "scrollbar.shadow": "#000000"
     },
     "tokenColors":[
         {
@@ -493,7 +493,7 @@
             "settings":{
                 "foreground":"#F39B35"
             }
-        },
+        }
 
 	
     ]

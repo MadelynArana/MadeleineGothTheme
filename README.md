@@ -6,4 +6,4 @@
 A bright, modern, contrasting dark theme for Visual Studio Code. 💀
 
 
-![Alt text](images/text_editor.png "text editor")
+![Alt text](assets/text_editor.png "text editor")

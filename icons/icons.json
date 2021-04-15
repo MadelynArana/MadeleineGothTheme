@@ -517,7 +517,7 @@
             "iconPath": "./lib/react.svg"
         },
         "readme": {
-            "iconPath": "./lib/readme.svg"
+            "iconPath": "./terror/jason.png"
         },
         "registry": {
             "iconPath": "./lib/registry.svg"
@@ -746,7 +746,72 @@
         },
         "folder.terminal.expanded":{
             "iconPath":"./lib/terminal.svg"
-        }  
+        },
+		"folder.controller":{
+            "iconPath":"./terror/scream.png"
+        },
+        "folder.controller.expanded":{
+            "iconPath":"./terror/scream.png"
+        },
+		"folder.model":{
+			"iconPath":"./terror/chucky.png"
+		},
+        "folder.model.expanded":{
+			"iconPath":"./terror/chucky.png"
+		},
+		"folder.view.expanded":{
+			"iconPath":"./terror/saw.png"
+		},
+        "folder.view":{
+			"iconPath":"./terror/saw.png"
+		},
+		
+		
+		"folder.controllers":{
+            "iconPath":"./terror/scream.png"
+        },
+        "folder.controllers.expanded":{
+            "iconPath":"./terror/scream.png"
+        },
+		"folder.models":{
+			"iconPath":"./terror/chucky.png"
+		},
+        "folder.models.expanded":{
+			"iconPath":"./terror/chucky.png"
+		},
+		"folder.views.expanded":{
+			"iconPath":"./terror/saw.png"
+		},
+        "folder.views":{
+			"iconPath":"./terror/saw.png"
+		},
+		
+        "folder.resource":{
+			"iconPath":"./terror/saw.png"
+		},  	
+        "folder.resource.expanded":{
+			"iconPath":"./terror/saw.png"
+		},  	
+        "folder.view.expanded":{
+			"iconPath":"./terror/saw.png"
+		},
+        "folder.view":{
+			"iconPath":"./terror/saw.png"
+		},
+		"folder.views.expanded":{
+			"iconPath":"./terror/saw.png"
+		},
+        "folder.views":{
+			"iconPath":"./terror/saw.png"
+		},
+        "folder.assets":{
+			"iconPath":"./terror/freddy.png"
+		},
+        "folder.assets.expanded":{
+			"iconPath":"./terror/freddy.png"
+		}
+         	
+         		
     },
     "folder": "folder",
     "folderExpanded": "folder.expanded",
@@ -788,9 +853,15 @@
         "controller":"folder.controller",
         "model":"folder.model",
         "view":"folder.view",
+        "core":"folder.core",
+		"controllers":"folder.controllers",
+        "models":"folder.models",
+        "views":"folder.views",
+        "core":"folder.core",
         "database":"folder.database",
         "resource":"folder.resource",
-        "config":"folder.config"
+        "config":"folder.config",
+        "assets":"folder.assets"
     },
     "folderNamesExpanded": {
         "javascript": "folder-javascript.expanded",
@@ -831,7 +902,9 @@
         "source": "source.folder.expanded",
         "src": "source.folder.expanded",
         "test": "test.folder.expanded",
-        "typings": "typescript.folder.expanded"
+        "typings": "typescript.folder.expanded",
+        "core":"folder.core.expanded",
+        "assets":"folder.assets.expanded"
     },
     "fileNames": {
         ".angular-cli.json": "angular",
@@ -962,7 +1035,8 @@
         "webpack.config.test.js": "webpack",
         "webpack.config.ts": "webpack",
         "yarn.lock": "yarn",
-        "controller":"controller"
+        "controller":"controller",
+        "core":"core"
     },
     "fileExtensions": {
         "java":"java",

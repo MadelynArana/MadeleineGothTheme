@@ -31,7 +31,12 @@
 			{
 				"label": "Madeleine Gothic Theme | Default Version",
 				"uiTheme": "vs-dark",
-				"path": "./themes/madeleine_gothic_theme.json"
+				"path": "./themes/madeleine_gothic_theme_black.json"
+			},
+			{
+				"label": "Madeleine Gothic Theme purple",
+				"uiTheme": "vs-dark",
+				"path": "./themes/madeleine_gothic_theme_purple.json"
 			}
 		],
 		"iconThemes": [

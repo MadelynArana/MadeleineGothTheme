@@ -332,12 +332,20 @@
             }
         },
         {
+         "name":"Bondi Blue",
+         "scope":[
+            "support.type.property-name"
+         ],
+         "settings":{
+             "foreground":"#da7dae"
+         }
+      },
+        {
             "name":"Bondi Blue",
             "scope":[
                 "meta.object-literal.key.js",
                 "markup.italic",
                 "support.function.builtin",
-                "support.type.property-name",
                 "storage.type.function",
                 "storage.type"
             ],
@@ -492,11 +500,22 @@
             "settings":{
                 "foreground":"#F39B35"
         }
-        },    {
+        },  
+        {
+         "name": "CSS property ",
+         "scope": [
+            "support.constant.font-name"
+         ],
+         "settings": {
+         "foreground": "#98E342"
+         }
+         },
+
+        
+        {
         "name": "CSS property value",
         "scope": [
             "support.constant.property-value",
-            "support.constant.font-name",
             "support.constant.media-type",
             "support.constant.media",
             "constant.other.color.rgb-value",

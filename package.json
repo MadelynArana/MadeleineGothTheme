@@ -29,15 +29,17 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Madeleine Gothic Theme | Default Version",
+				"label": "Madeleine Gothic Theme | Pink",
 				"uiTheme": "vs-dark",
-				"path": "./themes/madeleine_gothic_theme_default.json"
+				"path": "./themes/madeleine_gothic_theme_pink.json"
 			},
+	
 			{
-				"label": "Madeleine Gothic Theme | Black",
+				"label": "Madeleine Gothic Theme | Contrast purple",
 				"uiTheme": "vs-dark",
-				"path": "./themes/madeleine_gothic_theme_black.json"
-			},
+				"path": "./themes/madeleine_gothic_theme_contrast_purple.json"
+			}
+			,
 			{
 				"label": "Madeleine Gothic Theme | Purple",
 				"uiTheme": "vs-dark",

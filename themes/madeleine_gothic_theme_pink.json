@@ -173,7 +173,8 @@
         "editor.selectionForeground": "#FFFFFF",
         "editor.selectionHighlightBackground": "#27272750",
         "editor.selectionHighlightBorder": "#FC43847A",
-        "editor.wordHighlightBackground": "#42557B30",
+
+        "editor.wordHighlightBackground": "#98E342",
         "editor.wordHighlightBorder": "#11111100",
         "editor.wordHighlightStrongBackground": "#42557B30",
         "editor.wordHighlightStrongBorder": "#11111100",

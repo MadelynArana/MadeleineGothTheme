@@ -568,10 +568,10 @@
             "iconPath": "./lib/sound.svg"
         },
         "source.folder.expanded": {
-            "iconPath": "./lib/source.folder.expanded.svg"
+            "iconPath": "./terror/knife.svg"
         },
         "source.folder": {
-            "iconPath": "./lib/source.folder.svg"
+            "iconPath": "./terror/chucky.png"
         },
         "stylelint.light": {
             "iconPath": "./lib/stylelint.light.svg"
@@ -670,7 +670,7 @@
             "iconPath": "./lib/vue.svg"
         },
         "webpack": {
-            "iconPath": "./lib/webpack.svg"
+            "iconPath": "./terror/ghost.png"
         },
         "xml": {
             "iconPath": "./lib/xml.svg"
@@ -782,25 +782,12 @@
 		"folder.views.expanded":{
 			"iconPath":"./terror/saw.png"
 		},
-        "folder.views":{
-			"iconPath":"./terror/saw.png"
-		},
-		
         "folder.resource":{
 			"iconPath":"./terror/saw.png"
 		},  	
         "folder.resource.expanded":{
 			"iconPath":"./terror/saw.png"
 		},  	
-        "folder.view.expanded":{
-			"iconPath":"./terror/saw.png"
-		},
-        "folder.view":{
-			"iconPath":"./terror/saw.png"
-		},
-		"folder.views.expanded":{
-			"iconPath":"./terror/saw.png"
-		},
         "folder.views":{
 			"iconPath":"./terror/saw.png"
 		},
@@ -809,9 +796,11 @@
 		},
         "folder.assets.expanded":{
 			"iconPath":"./terror/freddy.png"
-		}
-         	
-         		
+		},
+        "browserslistrc":{
+            "iconPath":"./terror/coffin.svg"
+        }
+        
     },
     "folder": "folder",
     "folderExpanded": "folder.expanded",
@@ -853,7 +842,6 @@
         "controller":"folder.controller",
         "model":"folder.model",
         "view":"folder.view",
-        "core":"folder.core",
 		"controllers":"folder.controllers",
         "models":"folder.models",
         "views":"folder.views",
@@ -1036,7 +1024,8 @@
         "webpack.config.ts": "webpack",
         "yarn.lock": "yarn",
         "controller":"controller",
-        "core":"core"
+        "core":"core",
+        ".browserslistrc":"browserslistrc"
     },
     "fileExtensions": {
         "java":"java",
